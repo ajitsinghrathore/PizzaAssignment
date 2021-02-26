@@ -22,16 +22,19 @@ input format for sending request to backend is given below
    'count': 1, 
    'next': 'http://127.0.0.1:8000/PizzaApi/getPizza/?page=2&size=small&type=square',
    'previous': None,
-   'results': [    {'Type': 'square',
+   'results': [    { 'id':1,
+                     'Type': 'square',
                      'size': 'small',
                      'Toppings': [{'name': 'cheese'}, {'name': 'tomato'}]}
-                 , {'Type': 'square',
+                 , { 'id':2,
+                     'Type': 'square',
                      'size': 'small',
                      'Toppings': [{'name': 'onion'}, {'name': 'corn'}]}
               ]
  }  
 ```
 here 
+* id represents the id of the pizza which can be used to uniquely identify this pizza and update or delete it later 
 * count represents the total number of pizza's present in database according to the  size and type which user has requested 
 * next represnts  the url for fetching next set of results 
 * previous represents  the url for fetching  previous page 
