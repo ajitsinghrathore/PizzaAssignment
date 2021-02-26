@@ -74,7 +74,7 @@ here
 
 **Note** size of pagination is  set to 2 for testinf purpose you can chanhge its value in  [settings.py](https://github.com/ajitsinghrathore/PizzaAssignment/blob/master/pizza_project/pizza_project/settings.py) file as shown below
 
-    * ```
+  * ```
       REST_FRAMEWORK = {
           'DEFAULT_PAGINATION_CLASS' :'rest_framework.pagination.PageNumberPagination',
           'PAGE_SIZE': enter your custom size of each page,
