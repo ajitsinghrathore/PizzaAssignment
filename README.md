@@ -32,13 +32,18 @@ input format for sending request to backend is given below
  }  
 ```
 here 
-1. count represents the total number of pizza's present in database according to the  size and type which user has requested 
-2. next represnts  the url for fetching next set of results 
-3. previous represents  the url for fetching  previous page 
-4. results  is having the real data which  contain list of pizza 
-5. inside each pizza its type ,size and list of toppings are given
+* count represents the total number of pizza's present in database according to the  size and type which user has requested 
+* next represnts  the url for fetching next set of results 
+* previous represents  the url for fetching  previous page 
+* results  is having the real data which  contain list of pizza 
+* inside each pizza its type ,size and list of toppings are given
 
-**Note** size of pagination is  set to 2 for testinf purpose you can chanhge its value in  [settings.py](https://github.com/ajitsinghrathore/PizzaAssignment/pizza_project/settings.py)file
+**Note** size of pagination is  set to 2 for testinf purpose you can chanhge its value in  [settings.py]        (https://github.com/ajitsinghrathore/PizzaAssignment/blob/master/pizza_project/pizza_project/settings.py) file
+
+
+* ### for creating ("http://127.0.0.1:8000/PizzaApi/")
+
+Users can create pizza's  
 
 
 
