@@ -3,7 +3,7 @@
 
 ## setting up the project 
 
-1. firstly create virtual environment and install all the dependencies mentioned in reuirement.txt file
+1. firstly create virtual environment and install all the dependencies mentioned in [reuirement.txt](https://github.com/ajitsinghrathore/PizzaAssignment/blob/master/requirements.txt) file
 2. Then , for connecting to database you need to provide the connection url username and password of your mongodb database in [settings.py](https://github.com/ajitsinghrathore/PizzaAssignment/blob/master/pizza_project/pizza_project/settings.py) file as shown below
 3. make migrations and  execute all migrations with these commands
     1. ``` python manage.py makemigrations```
