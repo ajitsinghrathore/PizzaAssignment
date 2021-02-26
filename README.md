@@ -1,6 +1,20 @@
 # PizzaAssignment
 
 
+## setting up the project 
+
+1. firstly create virtual environment and install all the dependencies mentioned in reuirement.txt file
+2. Then , for connecting to database you need to provide the connection url username and password of your mongodb database insettings.py file as shown below
+3. make migrations and  execute all migrations with these commands
+    1. ``` python manage.py makemigrations```
+    2. ``` python manage.py migrate```
+4.  after all these  start your server with the  command given below
+    1. ``` python manage.py runserver```
+
+
+Server is runnning now 
+
+
 ## Api endpoints 
 
 * ### For fetching ("http://127.0.0.1:8000/PizzaApi/getPizza/") 
