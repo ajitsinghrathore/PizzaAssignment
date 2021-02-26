@@ -72,7 +72,7 @@ def fetch_piza_entries(pageno, size=None, type=None):
 
 
 
-#fetch_piza_entries(1,type="regular",size="small")
+fetch_piza_entries(1,type="square",size="small")
 
 #create_pizza_entry("Regular","small",["corn","cheese","done"])
 # delete_pizza_entry(1)

@@ -80,9 +80,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'CLIENT': {
-            'host': "Enter your host url",
-            'username': 'Enter your username',
-            'password': 'Your password',
+            'host': "your host url",
+            'username': 'your username',
+            'password': 'your password',
             'authMechanism': 'SCRAM-SHA-1'
         }
 

@@ -15,10 +15,12 @@ class sizeserializor(serializers.Serializer):
 
 class PizzaSerializor(ModelSerializer):
     Toppings = sizeserializor(many=True)
+    id = serializers.IntegerField(read_only=True)
 
     class Meta:
         model = Pizza
-        fields = ['Type', 'size', 'Toppings']
+        fields = ['id','Type', 'size', 'Toppings']
+
 
     def create(self, validated_data):
 
