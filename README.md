@@ -29,7 +29,7 @@
     1. ``` python manage.py runserver```
 
 
-Server is runnning now 
+Server is runnning now  , For testing purpose i have created python scripts which  contains functions of  api calls for creating , fetching , updating and deleting pizza's , in order to use it comment all the function calls except the  function call to desired api call and execute it  
 
 
 ## Api endpoints 
