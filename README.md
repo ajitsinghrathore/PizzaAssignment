@@ -38,7 +38,7 @@ here
 * results  is having the real data which  contain list of pizza 
 * inside each pizza its type ,size and list of toppings are given
 
-**Note** size of pagination is  set to 2 for testinf purpose you can chanhge its value in  [settings.py(https://github.com/ajitsinghrathore/PizzaAssignment/blob/master/pizza_project/pizza_project/settings.py) file
+**Note** size of pagination is  set to 2 for testinf purpose you can chanhge its value in  [settings.py](https://github.com/ajitsinghrathore/PizzaAssignment/blob/master/pizza_project/pizza_project/settings.py) file
 
 
 * ### for creating ("http://127.0.0.1:8000/PizzaApi/")
